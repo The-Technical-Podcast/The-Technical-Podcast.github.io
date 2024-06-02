@@ -1,20 +1,23 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
-    background-image: url("The-Technical-Podcast-big.jpg");
+    font-family: Arial, sans-serif; 
+    background-image: url('The-Technical-Podcast-big-no-text.png');
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: cover
-  }
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+    }
   
-  div1 {
+  .A {
     margin: 0;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover
   }
@@ -22,7 +25,7 @@ body {
   h1 {
     padding-left: 5%;
     font-size: 100px;
-    color: #fcde33;
+    color: #ff7426;
     font-family: Arial, sans-serif;
   }
   
@@ -39,27 +42,27 @@ body {
   }
   
   li {
-    margin: 10%;
+    margin: 14%;
     flex-basis: 25%; /* each item takes up half of available width on vertical screens */
   }
   
   /* Default size for icons */
   .fab {
-    font-size: 60px;
+    font-size: 80px;
   }
   
   .fas {
-    font-size: 60px;
+    font-size: 80px;
   }
 
   /* Adjust size for smaller screens */
   @media (max-width: 768px) {
     .fab {
-      font-size: 40px;
+      font-size: 60px;
     }
 
     .fas {
-      font-size: 40px;
+      font-size: 60px;
     }
   
     h1 {
@@ -71,11 +74,11 @@ body {
   /* Adjust size for even smaller screens */
   @media (max-width: 576px) {
     .fab {
-      font-size: 30px;
+      font-size: 50px;
     }
   
     .fas {
-      font-size: 30px;
+      font-size: 50px;
     }
 
     h1 {
@@ -140,12 +143,12 @@ body {
   
   
   .fa-square-rss {
-    color: #eb6321;
+    color: #ff7426;
   }
   
   .fa-square-rss:hover,
   .fa-square-rss:focus {
-    color: #eb6321;
+    color: #ff7426;
   }
   
   
@@ -189,81 +192,14 @@ body {
   }
   
   
-  
-  div2 {
-    margin: auto;
-    width: 100vh;
-    background-color: 000000;
-    padding-left: 10%;
-    padding-right: 10%;
+  .B {
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 19vh;
-  }
-  
-  button {
-    background-color: #224f12;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 25px;
-    display: flex
-  }
-  
-  h2 {
-    color: #bd8503;
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  img {
-    height: 80px;
-    width: 80px;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin-bottom: 20px;
   }
 
-  div2 {
-    margin: auto;
-    width: 100vh;
-    background-color: 000000;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 19vh;
-  }
-  
-  button {
-    background-color: #224f12;
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 25px;
-    display: flex
-  }
-  
-  h2 {
-    color: #bd8503;
-    font-family: Arial, sans-serif;
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  img {
-    height: 80px;
-    width: 80px;
-    padding-right: 20px;
-    padding-left: 20px;
+  iframe {
+    padding: 5%;
   }
