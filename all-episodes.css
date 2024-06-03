@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+    background-image: url('The-Technical-Podcast-big-no-text.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+  }
+
+.A {
+    padding-top: 3%;
+}
+
+h1 {
+    text-align: center;
+    color: #ff7426;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.B {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5%;
+}
+
+iframe {
+    border:#ff7426;
+    border-style: solid;
+    border-width:thick;
+    border-radius: 25px;
+    margin: 1%;
+}
+
+.C {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3%;
+    flex-wrap: wrap;
+}
+
+.allepisodes {
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1%;
+    background-color: #fcde33;
+    padding: 1%;
+    border-radius: 25px; 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 1em;
+    color: #ff7426;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #fcde33;
+    text-align: center;
+    padding: 20px 0; /* Increase padding */
+    position: relative; /* Change position from fixed to relative */
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    color: #ff7426;
+}

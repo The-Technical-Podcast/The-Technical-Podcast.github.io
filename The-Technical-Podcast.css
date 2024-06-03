@@ -1,205 +1,213 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif; 
-    background-image: url('The-Technical-Podcast-big-no-text.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    background-attachment: fixed;
-    }
-  
-  .A {
-    margin: 0;
-    padding-left: 10%;
-    padding-right: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: cover
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; 
+  background-image: url('The-Technical-Podcast-big-no-text.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.A {
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover
+}
+
+h1 {
+  padding-left: 5%;
+  font-size: 100px;
+  color: #ff7426;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* allow items to wrap to new line */
+  background-color: #fcde33;
+  border-radius: 25px;
+}
+
+li {
+  margin: 14%;
+  flex-basis: 25%; /* each item takes up half of available width on vertical screens */
+}
+
+/* Default size for icons */
+.fab {
+  font-size: 80px;
+}
+
+.fas {
+  font-size: 80px;
+}
+
+/* Adjust size for smaller screens */
+@media (max-width: 768px) {
+  .fab {
+    font-size: 60px;
   }
-  
+
+  .fas {
+    font-size: 60px;
+  }
+
   h1 {
     padding-left: 5%;
-    font-size: 100px;
-    color: #ff7426;
-    font-family: Arial, sans-serif;
+    font-size: 40px;
   }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* allow items to wrap to new line */
-    background-color: #fcde33;
-    border-radius: 25px;
-  }
-  
-  li {
-    margin: 14%;
-    flex-basis: 25%; /* each item takes up half of available width on vertical screens */
-  }
-  
-  /* Default size for icons */
+}
+
+/* Adjust size for even smaller screens */
+@media (max-width: 576px) {
   .fab {
-    font-size: 80px;
+    font-size: 50px;
   }
-  
+
   .fas {
-    font-size: 80px;
+    font-size: 50px;
   }
 
-  /* Adjust size for smaller screens */
-  @media (max-width: 768px) {
-    .fab {
-      font-size: 60px;
-    }
+  h1 {
+    padding-left: 5%;
+    font-size: 30px;
+  }
+}
 
-    .fas {
-      font-size: 60px;
-    }
-  
-    h1 {
-      padding-left: 5%;
-      font-size: 40px;
-    }
-  }
-  
-  /* Adjust size for even smaller screens */
-  @media (max-width: 576px) {
-    .fab {
-      font-size: 50px;
-    }
-  
-    .fas {
-      font-size: 50px;
-    }
-
-    h1 {
-      padding-left: 5%;
-      font-size: 30px;
-    }
-  }
-  
-  button1 {
-    cursor: pointer;
-  }
+button1 {
+  cursor: pointer;
+}
 
 
-  .fa-youtube {
-    color: #ff0000;
-  }
-  
-  .fa-youtube:hover,
-  .fa-youtube:focus {
-    color: #FF0000;
-  }
-  
-  
-  .fa-x-twitter {
-    color: #212F4E;
-  }
-  
-  .fa-x-twitter:hover,
-  .fa-x-twitter:focus {
-    color: #212F4E  ;
-  }
-  
-  
-  .fa-instagram {
-    color: #ff0b69;
-  }
-  
-  .fa-instagram:hover,
-  .fa-instagram:focus {
-    color: #ff0b69;
-  }
-  
-  
-  .fa-spotify {
-    color: #1d1a1a;
-  }
-  
-  .fa-spotify:hover,
-  .fa-spotify:focus {
-    color: #1d1a1a;
-  }
-  
-  
-  .fa-podcast {
-    color: #892ac7;
-  }
-  
-  .fa-podcast:hover,
-  .fa-podcast:focus {
-    color: #892ac7;
-  }
-  
-  
-  .fa-square-rss {
+.fa-youtube {
+  color: #ff0000;
+}
+
+.fa-youtube:hover,
+.fa-youtube:focus {
+  color: #FF0000;
+}
+
+
+.fa-x-twitter {
+  color: #212F4E;
+}
+
+.fa-x-twitter:hover,
+.fa-x-twitter:focus {
+  color: #212F4E  ;
+}
+
+
+.fa-instagram {
+  color: #ff0b69;
+}
+
+.fa-instagram:hover,
+.fa-instagram:focus {
+  color: #ff0b69;
+}
+
+
+.fa-spotify {
+  color: #1d1a1a;
+}
+
+.fa-spotify:hover,
+.fa-spotify:focus {
+  color: #1d1a1a;
+}
+
+
+.fa-podcast {
+  color: #892ac7;
+}
+
+.fa-podcast:hover,
+.fa-podcast:focus {
+  color: #892ac7;
+}
+
+
+.fa-square-rss {
+  color: #ff7426;
+}
+
+.fa-square-rss:hover,
+.fa-square-rss:focus {
+  color: #ff7426;
+}
+
+.B {
+  font-weight: bold;
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 5em;
+  margin-bottom: 0.5em;
+  color: #ff7426;
+}
+
+.C {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+
+iframe {
+  border:#ff7426;
+  border-style: solid;
+  border-width:thick;
+  border-radius: 25px;
+}
+
+.D {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  flex-wrap: wrap;
+}
+
+.allepisodes {
+  background-color: #fcde33;
+  padding: 3%;
+  border-radius: 25px; 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-size: 2em;
+  color: #ff7426;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+footer {
+  background-color: #fcde33;
+  text-align: center;
+  padding: 20px 0; /* Increase padding */
+  position: relative; /* Change position from fixed to relative */
+  width: 100%;
+  bottom: 0;
+}
+
+footer p {
+    margin: 0;
     color: #ff7426;
-  }
-  
-  .fa-square-rss:hover,
-  .fa-square-rss:focus {
-    color: #ff7426;
-  }
-  
-  
-  .fa-reddit {
-    color: #ff4400;
-  }
-  
-  .fa-reddit:hover,
-  .fa-reddit:focus {
-    color: #ff4500;
-  }
-  
-  
-  .fa-linkedin {
-    color: #0073b1;
-  }
-  
-  .fa-linkedin:hover,
-  .fa-linkedin:focus {
-    color: #0073b1;
-  }
-  
-  
-  .fa-slack {
-    color: #63C1A0;
-  }
-  
-  .fa-slack:hover,
-  .fa-slack:focus {
-    color: #63C1A0;
-  }
-  
-  
-  .fa-pinterest {
-    color: #E60023;
-  }
-  
-  .fa-pinterestn:hover,
-  .fa-pinterest:focus {
-    color: #E60023;
-  }
-  
-  
-  .B {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-  }
-
-  iframe {
-    padding: 5%;
-  }
+}
