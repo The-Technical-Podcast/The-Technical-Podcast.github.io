@@ -1,3 +1,4 @@
+/* Body styling, including background image, font, and dimensions */
 body {
     margin: 0;
     padding: 0;
@@ -8,12 +9,14 @@ body {
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
-  }
+}
 
+/* Padding for the top of the A class elements */
 .A {
     padding-top: 3%;
 }
 
+/* Heading 1 styling, including text alignment, color, size, and weight */
 h1 {
     text-align: center;
     color: #ff7426;
@@ -21,6 +24,7 @@ h1 {
     font-weight: bold;
 }
 
+/* Display flex and centering for the B class elements */
 .B {
     display: flex;
     justify-content: center;
@@ -28,6 +32,7 @@ h1 {
     margin: 5%;
 }
 
+/* Styling for iframe elements, including border, border radius, and margin */
 iframe {
     border:#ff7426;
     border-style: solid;
@@ -36,6 +41,7 @@ iframe {
     margin: 1%;
 }
 
+/* Display flex and centering for the C class elements */
 .C {
     display: flex;
     justify-content: center;
@@ -43,6 +49,7 @@ iframe {
     flex-wrap: wrap;
 }
 
+/* Styling for the allepisodes class elements, including background color, padding, border radius, and text properties */
 .allepisodes {
     margin-left: 35%;
     margin-right: 35%;
@@ -59,6 +66,7 @@ iframe {
     font-weight: bold;
 }
 
+/* Styling for the footer, including background color, text alignment, padding, position, width, and bottom properties */
 footer {
     background-color: #fcde33;
     text-align: center;
@@ -68,6 +76,7 @@ footer {
     bottom: 0;
 }
 
+/* Styling for the paragraph elements within the footer, including margin and color */
 footer p {
     margin: 0;
     color: #ff7426;

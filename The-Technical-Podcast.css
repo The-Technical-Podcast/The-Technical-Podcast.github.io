@@ -1,3 +1,4 @@
+/* Body styling, including margin, padding, font, and background image */
 body {
   margin: 0;
   padding: 0;
@@ -10,6 +11,7 @@ body {
   background-attachment: fixed;
 }
 
+/* Styling for class A, including margin, padding, display, and alignment */
 .A {
   margin: 0;
   padding-left: 10%;
@@ -17,10 +19,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  background-size: cover
+  height: 100%;
+  background-size: cover;
+  padding-top: 1%;
 }
 
+/* Heading 1 styling, including padding, font size, color, and font family */
 h1 {
   padding-left: 5%;
   font-size: 100px;
@@ -28,9 +32,10 @@ h1 {
   font-family: Arial, sans-serif;
 }
 
+/* Unordered list styling, including list style, margin, padding, display, and alignment */
 ul {
   list-style: none;
-  margin: 0;
+  margin-top: 1%;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -40,27 +45,31 @@ ul {
   border-radius: 25px;
 }
 
+/* List item styling, including margin, flex basis, and text alignment */
 li {
   margin: 14%;
   flex-basis: 25%; /* each item takes up half of available width on vertical screens */
+  text-align: center;
+  
 }
 
-/* Default size for icons */
+/* Default size for Font Awesome icons */
 .fab {
   font-size: 80px;
 }
 
+/* Default size for Font Awesome solid icons */
 .fas {
   font-size: 80px;
 }
 
 /* Adjust size for smaller screens */
 @media (max-width: 768px) {
-  .fab {
+ .fab {
     font-size: 60px;
   }
 
-  .fas {
+ .fas {
     font-size: 60px;
   }
 
@@ -72,11 +81,11 @@ li {
 
 /* Adjust size for even smaller screens */
 @media (max-width: 576px) {
-  .fab {
+ .fab {
     font-size: 50px;
   }
 
-  .fas {
+ .fas {
     font-size: 50px;
   }
 
@@ -86,70 +95,78 @@ li {
   }
 }
 
+/* Styling for button1, including cursor */
 button1 {
   cursor: pointer;
 }
 
-
+/* Styling for YouTube icon, including color */
 .fa-youtube {
   color: #ff0000;
 }
 
+/* Styling for YouTube icon on hover and focus, including color */
 .fa-youtube:hover,
 .fa-youtube:focus {
   color: #FF0000;
 }
 
-
+/* Styling for Twitter icon, including color */
 .fa-x-twitter {
   color: #212F4E;
 }
 
+/* Styling for Twitter icon on hover and focus, including color */
 .fa-x-twitter:hover,
 .fa-x-twitter:focus {
   color: #212F4E  ;
 }
 
-
+/* Styling for Instagram icon, including color */
 .fa-instagram {
   color: #ff0b69;
 }
 
+/* Styling for Instagram icon on hover and focus, including color */
 .fa-instagram:hover,
 .fa-instagram:focus {
   color: #ff0b69;
 }
 
-
+/* Styling for Spotify icon, including color */
 .fa-spotify {
   color: #1d1a1a;
 }
 
+/* Styling for Spotify icon on hover and focus, including color */
 .fa-spotify:hover,
 .fa-spotify:focus {
   color: #1d1a1a;
 }
 
-
+/* Styling for Podcast icon, including color */
 .fa-podcast {
   color: #892ac7;
 }
 
+/* Styling for Podcast icon on hover and focus, including color */
 .fa-podcast:hover,
 .fa-podcast:focus {
   color: #892ac7;
 }
 
-
+/* Styling for RSS icon, including color */
 .fa-square-rss {
   color: #ff7426;
 }
 
+/* Styling for RSS icon on hover and focus, including color */
 .fa-square-rss:hover,
 .fa-square-rss:focus {
   color: #ff7426;
 }
 
+/* Styling for class B, including font weight, padding, display, and alignment */
 .B {
   font-weight: bold;
   padding-top: 5%;
@@ -157,12 +174,14 @@ button1 {
   justify-content: center;
 }
 
+/* Heading 2 styling, including font size, margin bottom, and color */
 h2 {
   font-size: 5em;
   margin-bottom: 0.5em;
   color: #ff7426;
 }
 
+/* Styling for class C, including display, alignment, and margin */
 .C {
   display: flex;
   justify-content: center;
@@ -170,6 +189,7 @@ h2 {
   margin: 5%;
 }
 
+/* Styling for iframe, including border, border style, border width, and border radius */
 iframe {
   border:#ff7426;
   border-style: solid;
@@ -177,6 +197,7 @@ iframe {
   border-radius: 25px;
 }
 
+/* Styling for class D, including display, alignment, margin, and flex wrap */
 .D {
   display: flex;
   justify-content: center;
@@ -184,6 +205,7 @@ iframe {
   flex-wrap: wrap;
 }
 
+/* Styling for 'All Episodes' link, including background color, padding, border radius, display, alignment, font size, color, text decoration, and font weight */
 .allepisodes {
   background-color: #fcde33;
   padding: 3%;
@@ -197,7 +219,7 @@ iframe {
   font-weight: bold;
 }
 
-
+/* Styling for footer, including background color, text alignment, padding, position, width, and bottom */
 footer {
   background-color: #fcde33;
   text-align: center;
@@ -207,7 +229,8 @@ footer {
   bottom: 0;
 }
 
+/* Styling for paragraph in footer, including margin and color */
 footer p {
-    margin: 0;
-    color: #ff7426;
+  margin: 0;
+  color: #ff7426;
 }
