@@ -26,12 +26,37 @@
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-JMMEWFCYCB"></script>
 	<!-- Google tag for analytics -->
 	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
 
-	gtag('config', 'G-JMMEWFCYCB');
-	<!-- Configuration for Google tag -->
+		gtag('config', 'G-JMMEWFCYCB');
+		<!-- Configuration for Google tag -->
+	</script>
+
+	<script>
+		// Set up Azeptio settings with client ID
+		window.axeptioSettings = {
+		clientId: "665ec5e59e82b37e087edf04",
+		};
+		
+		// Create a self-invoking anonymous function to load the Azeptio SDK
+		(function(d, s) {
+		// Get the first script tag in the document
+		var t = d.getElementsByTagName(s)[0];
+		
+		// Create a new script element for the SDK
+		var e = d.createElement(s);
+		
+		// Set the async property to true for non-blocking loading
+		e.async = true;
+		
+		// Set the source URL of the SDK script
+		e.src = "//static.axept.io/sdk.js";
+		
+		// Insert the new script element before the existing script tag
+		t.parentNode.insertBefore(e, t);
+		})(document, "script");
 	</script>
 
 	<body>
